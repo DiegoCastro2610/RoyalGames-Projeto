@@ -1,0 +1,23 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 150px;
+}
+
+#imagem{
+    width: 214px;
+    height: 79px;
+}
+
+
+#navegacao a{
+    font-size: 24px;
+}
+
+#navegacao button{
+    width: 130px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 24px;
+}
