@@ -1,0 +1,10 @@
+:root{
+    --cor-fundo: #221C2D
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+

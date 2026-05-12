@@ -1,0 +1,27 @@
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 306px;
+    background-color: var(--cor-fundo);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#dados{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#dados p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#imagem{
+    width: 378px;
+    height: 144px;
+}

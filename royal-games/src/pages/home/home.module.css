@@ -1,0 +1,38 @@
+body{
+    margin: none;
+    padding: none;
+    
+}
+
+#introducao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-fundo);
+    padding-left: 100px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+#textosIntroducao {
+    width: 763px;
+    height: 87px;
+    flex-wrap: wrap;
+}
+
+#textosIntroducao h3{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 38px;
+}
+
+#textosIntroducao p{
+    font-size: 24px;
+    color: white;
+}
+
+#imagemIntroducao{
+    width: 444px;
+    height: 665px;
+}
