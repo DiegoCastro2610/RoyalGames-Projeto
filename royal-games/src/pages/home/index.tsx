@@ -17,12 +17,13 @@ const Home = () =>{
 
             <section id={styles.informacoes}>
                 <h3>Jogos online podem afetar o comportamento humano?</h3>
-                <hr></hr>
+                <hr id={styles.barra}></hr>
                 <div>
-                    <img src="./imgs/Group10.png" alt="" />
-                    <img src="./imgs/cs.png" alt="" />
+                    <img src="./imgs/Group10.png" id={styles.lol} alt="" />
+                    <img src="./imgs/cs.png" id={styles.cs} alt="" />
                 </div>
-                <p> Estudos indicam que jogos podem alterar o comportamento humano… Principalmente quando o time resolve testar sua paciência em plena partida ranqueada.</p>
+                <p> Estudos indicam que jogos podem alterar o comportamento humano…</p>
+                <p> Principalmente quando o time resolve testar sua paciência em plena partida ranqueada.</p>
             </section>
             
             <Footer/>
