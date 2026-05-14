@@ -8,7 +8,7 @@
  height: 100vh;
 }
 
-#main div{
+#formularioCompleto{
     width: 565px;
     height: 693px;
     border: 0.5px solid gray;
@@ -18,14 +18,55 @@
     justify-content: center;
 }
 
-#imagemLogin{
+#mulherLogin{
+    display: flex;
+    flex-direction: column;
+    width: 522px;
+    height: 100vh;
+    justify-content: end;
+    margin-right: 88px;
+}
 
+#mulherLogin img{
+    width: 522px;
+    height: 783px;
 }
 
 #logo{
+    margin-bottom: 86px;
+    width: 350px;
+    height: 130px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 421px;
+    height: 188px;
+    color: white;
+    font-size: 24px;
+}
+
+#form input{
+    width: 421px;
+    height: 42px;
+    border-radius: 6px;
+    background-color: #D6D2E633;
+    margin-top: 5px;
+    padding-left: 10px;
 
 }
 
-#formulario{
+#formularioCompleto button{
+    width: 166px;
+    height: 42px;
+    border-radius: 6px;
+    border: 2px solid #FF004C;
+    background-color: transparent;
+    color: white;
+    margin-top: 72px;
+}
 
+#email{
+    margin-bottom: 36px;
 }

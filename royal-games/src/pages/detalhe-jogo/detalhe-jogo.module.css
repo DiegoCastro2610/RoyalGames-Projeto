@@ -1,0 +1,40 @@
+#fundo{
+    background-color: var(--cor-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#detalhe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1240px;
+    height: 1093px;
+    border: 0.5px solid gray;
+    border-radius: 6px;
+}
+
+#imagemTexto{
+    display: flex;
+    flex-direction: row;
+}
+
+#textoCima{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#TextoBaixo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#TextoBaixo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
