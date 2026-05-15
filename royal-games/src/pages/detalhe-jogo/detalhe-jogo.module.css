@@ -14,27 +14,62 @@
     height: 1093px;
     border: 0.5px solid gray;
     border-radius: 6px;
+    color: white;
+}
+
+#detalhe h2{
+    font-size: 36px;
+}
+
+#detalhe hr{
+    border: 1px solid #FF004C;
+    width: 414px;
+    margin-bottom: 92px;
+    margin-top: 10px;
 }
 
 #imagemTexto{
     display: flex;
     flex-direction: row;
+    width: 1071px;
+    height: 544px;
+}
+
+#imagemTexto img{
+    width: 505px;
+    height: 539px;
 }
 
 #textoCima{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 40px;
+}
+
+#textoCima h3{
+    font-size: 32px;
+}
+
+#textoCima p{
+    font-size: 24px;
+    margin-top: 40px;
 }
 
 #TextoBaixo1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    width: 844px;
+    font-size: 24px;
+    justify-content: space-between;
+    margin-top: 91px;
 }
 
 #TextoBaixo2{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    width: 844px;
+    font-size: 24px;
+    justify-content: space-between;
+    margin-top: 35px;
 }

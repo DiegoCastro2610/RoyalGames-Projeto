@@ -1,0 +1,53 @@
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid gray;
+    border-radius: 6px;
+    background-color: transparent;
+    width: 376px;
+    height: 477px;
+}
+
+#card img{
+    width: 293px;
+    height: 272px;
+    border-radius: 6px;
+}
+
+#card h2{
+    font-size: 28px;
+    color: white;
+}
+
+#card h3{
+    font-size: 20px;
+    color: white;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 321px;
+    height: 50px;
+}
+
+#excluir{
+    width: 146px;
+    height: 50px;
+    color: white;
+    background-color: #FF004C;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#editar{
+    width: 146px;
+    height: 50px;
+    color: white;
+    background-color: #FF004C;
+    border-radius: 6px;
+    font-size: 20px;
+}
