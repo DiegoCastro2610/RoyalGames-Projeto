@@ -3,28 +3,24 @@ import Card from "../card/card"
 
 const Listagem = () =>{
     return(
-        <section>
+        <section id={styles.sessao}>
             <div id={styles.topo}>
-                <input type="text" id={styles.texto}/>
+                <input type="text" id={styles.texto} placeholder="Pesquisa..."/>
                 <select id={styles.filtro}>
-                    <option value="liltro">Filtro</option>
+                    <option value="Filtro">Filtro</option>
                     <option value="menorPreco">Menor Preço</option>
                     <option value="maiorPreco">Maior Preço</option>
                 </select>
                 <select id={styles.categoria}>
-                    <option value="">Categorio</option>
+                    <option value="categorio">Categorio</option>
                 </select>
             </div>
-            <section>
+            <div id={styles.card}>
                 <Card/>
                 <Card/>
                 <Card/>
                 <Card/>
-            </section>
-            <div>
-
             </div>
-        
         </section>
     )
 }

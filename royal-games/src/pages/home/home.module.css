@@ -86,3 +86,26 @@ body{
     width: 1100.01;
     margin-bottom: 75px;
 }
+
+#listagem{
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#listagem h2{
+    font-size: 32px;
+    color: white;
+    margin-top: 20px;
+}
+
+#listagem hr{
+    border: none;
+    height: 1px;
+    background-color: #FF004C;
+    width: 414px;
+    margin-top: 10px;
+    margin-bottom: 61px;
+}

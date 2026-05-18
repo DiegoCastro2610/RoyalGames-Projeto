@@ -1,6 +1,7 @@
 import styles  from "./home.module.css";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
+import Listagem from "@/components/listagem/listagem";
 
 const Home = () =>{
     return(
@@ -13,6 +14,12 @@ const Home = () =>{
                     <p>Navegue por títulos de todas as gerações, descubra plataformas, gêneros e detalhes completos antes de escolher sua próxima aventura. Seu próximo jogo favorito começa aqui.</p>
                 </div>
                 <img src="./imgs/ImagemBanner.png" id={styles.imagemIntroducao} alt="" />
+            </section>
+            
+            <section id={styles.listagem}>
+                <h2>Catálogo de jogos</h2>
+                <hr />
+                <Listagem/>
             </section>
 
             <section id={styles.informacoes}>
