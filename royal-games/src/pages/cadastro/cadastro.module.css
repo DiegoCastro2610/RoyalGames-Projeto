@@ -1,0 +1,215 @@
+#sessao{
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#divCadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 0.5px solid gray;
+    border-radius: 6px;
+    width: 1240px;
+    height: 548px;
+    margin-bottom: 78px;
+}
+
+#divCadastro h2{
+    font-size: 36px;
+    color: white;
+}
+
+#divCadastro hr{
+    border: none;
+    height: 1px;
+    background-color: #FF004C;
+    width: 414px;
+    margin-bottom: 45px;
+    margin-top: 10px;
+}
+
+#divInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#ladoEsquerdo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#primeiraLinha{
+    display: flex;
+    flex-direction: column;
+}
+
+#primeiraLinha h3{
+    font-size: 24px;
+    color: white;
+}
+
+#primeiraLinha input{
+    width: 660px;
+    height: 42px;
+    background-color: #D6D2E633;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+#segundaLinha{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+#valor{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+#valor h3{
+    font-size: 24px;
+    color: white;
+}
+
+#valor input{
+   width: 169px;
+   height: 42px; 
+   background-color: #D6D2E633;
+   border-radius: 6px;
+}
+
+#genero{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+#genero h3{
+    font-size: 24px;
+    color: white;
+}
+
+#genero select{
+    width: 169px;
+    height: 42px;
+     background-color: #D6D2E633;
+     border-radius: 6px;
+}
+
+#classificacao{
+    display: flex;
+    flex-direction: column;
+}
+
+#classificacao h3{
+    font-size: 24px;
+    color: white;
+}
+
+#classificacao select{
+    width: 261px;
+    height: 42px;
+     background-color: #D6D2E633;
+     border-radius: 6px;
+}
+
+#terceiraLinha{
+    display: flex;
+    flex-direction: row;
+}
+
+#plataforma{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+#plataforma h3{
+    font-size: 24px;
+    color: white;
+}
+
+#plataforma select{
+    width: 316px;
+    height: 42px;
+     background-color: #D6D2E633;
+     border-radius: 6px;
+}
+
+#imagem{
+    display: flex;
+    flex-direction: column;
+}
+
+#imagem h3{
+    font-size: 24px;
+    color: white;
+}
+
+#imagem input{
+    width: 152px;
+    height: 42px;
+     background-color: #D6D2E633;
+     border-radius: 6px;
+}
+
+#ladoDireito{
+    display: flex;
+    flex-direction: column;
+}
+
+#ladoDireito h3{
+    font-size: 24px;
+    color: white;
+}
+
+#ladoDireito input{
+    width: 421px;
+    height: 228px;
+     background-color: #D6D2E633;
+     border-radius: 6px;
+}
+ 
+#botaoCadastrar{
+    background-color: transparent;
+    border: 1px solid #FF004C;
+    width: 166px;
+    height: 42px;
+    color: white;
+    border-radius: 6px;
+    margin-top: 40px;
+}
+
+#sessaoListagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-fundo);
+}
+
+#sessaoListagem h2{
+    font-size: 32px;
+    color: white;
+}
+
+#sessaoListagem hr{
+    border: none;
+    height: 1px;
+    background-color: #FF004C;
+    width: 414px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
